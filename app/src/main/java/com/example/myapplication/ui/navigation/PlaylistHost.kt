@@ -1,10 +1,9 @@
 package com.example.myapplication.ui.navigation
 
-
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
-import androidx.navigation.compose.*
-import com.example.myapplication.ui.navigation.Screen
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
 import com.example.myapplication.ui.screen.MainScreen
 import com.example.myapplication.ui.screen.SearchScreen
 import com.example.myapplication.ui.screen.SettingsScreen
@@ -20,10 +19,10 @@ fun PlaylistHost(navController: NavHostController) {
         composable(Screen.MAIN.name) {
             MainScreen(
                 onSearchClick = {
-                    navController.navigate(Screen.SEARCH.name)
+                    navigateToSearch(navController)
                 },
                 onSettingsClick = {
-                    navController.navigate(Screen.SETTINGS.name)
+                    navigateToSettings(navController)
                 }
             )
         }
@@ -40,4 +39,12 @@ fun PlaylistHost(navController: NavHostController) {
             )
         }
     }
+}
+
+private fun navigateToSearch(navController: NavHostController) {
+    navController.navigate(Screen.SEARCH.name)
+}
+
+private fun navigateToSettings(navController: NavHostController) {
+    navController.navigate(Screen.SETTINGS.name)
 }
