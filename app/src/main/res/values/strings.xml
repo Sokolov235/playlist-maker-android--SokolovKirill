@@ -21,7 +21,6 @@
 
     <string name="search">Поиск</string>
     <string name="search_empty_hint">Введите строку для поиска</string>
-		
-		<string name="settings_title">Настройки</string>
-		<string name="playlist_maker">Playlist maker</string>
+    
+    <string name="settings_title">Настройки</string>
 </resources>
