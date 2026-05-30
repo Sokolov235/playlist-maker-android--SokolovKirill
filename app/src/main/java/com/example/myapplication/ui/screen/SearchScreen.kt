@@ -1,5 +1,7 @@
 package com.example.myapplication.ui.screen
 
+import androidx.compose.ui.res.stringResource
+import com.example.myapplication.R
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn

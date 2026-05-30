@@ -6,7 +6,7 @@
 
     <string name="share_text">https://practicum.yandex.ru/android-developer/</string>
 
-    <string name="email">your@email.com</string>
+    <string name="email">mr.kir2004@gmail.com</string>
     <string name="email_subject">
         Сообщение разработчикам и разработчицам приложения Playlist Maker
     </string>
@@ -18,4 +18,7 @@
         https://yandex.ru/legal/practicum_offer/
     </string>
     <string name="playlist_maker">Playlist maker</string>
+
+    <string name="search">Поиск</string>
+    <string name="search_empty_hint">Введите строку для поиска</string>
 </resources>
